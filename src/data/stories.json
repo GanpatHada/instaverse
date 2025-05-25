@@ -1,0 +1,62 @@
+[
+  {
+    "id": "img001",
+    "title": "Scenic Hills",
+    "url": "https://picsum.photos/id/1015/400/300",
+    "source": "Picsum"
+  },
+  {
+    "id": "img002",
+    "title": "Pine Trees",
+    "url": "https://picsum.photos/id/102/400/300",
+    "source": "Picsum"
+  },
+  {
+    "id": "img003",
+    "title": "City Road",
+    "url": "https://picsum.photos/id/1043/400/300",
+    "source": "Picsum"
+  },
+  {
+    "id": "img004",
+    "title": "Calm Water",
+    "url": "https://picsum.photos/id/1056/400/300",
+    "source": "Picsum"
+  },
+  {
+    "id": "img005",
+    "title": "Beach Umbrella",
+    "url": "https://picsum.photos/id/1062/400/300",
+    "source": "Picsum"
+  },
+  {
+    "id": "img006",
+    "title": "Stone Path",
+    "url": "https://picsum.photos/id/1070/400/300",
+    "source": "Picsum"
+  },
+  {
+    "id": "img007",
+    "title": "Night Lights",
+    "url": "https://picsum.photos/id/1084/400/300",
+    "source": "Picsum"
+  },
+  {
+    "id": "img008",
+    "title": "Country Field",
+    "url": "https://picsum.photos/id/1080/400/300",
+    "source": "Picsum"
+  },
+  {
+    "id": "img009",
+    "title": "Snowy Cabin",
+    "url": "https://picsum.photos/id/1069/400/300",
+    "source": "Picsum"
+  },
+  {
+    "id": "img010",
+    "title": "Foggy Forest",
+    "url": "https://picsum.photos/id/1041/400/300",
+    "source": "Picsum"
+  }
+]
