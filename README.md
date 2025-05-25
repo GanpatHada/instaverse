@@ -1,12 +1,76 @@
-# React + Vite
+# 📱 Instaverse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight **Instagram-like story viewer** built for mobile devices, with smooth transitions and native behavior — **no external libraries used**.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Live Demo](https://instaversedemo.netlify.app)
 
-## Expanding the ESLint configuration
+> ⚠️ **Note**: This project is optimized for **mobile only** and may not work properly on desktop screens.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 📂 **JSON-based Story Source**: All image URLs are stored and fetched from a separate JSON file.
+- 📜 **Horizontally Scrollable Story List**: A sleek, scrollable bar of story previews at the top.
+- 👆 **Tap Navigation**:
+  - Tap **left** to go to the **previous** story.
+  - Tap **right** to go to the **next** story.
+- ⏱️ **Automatic Story Advance**: Each story automatically progresses after **5 seconds**.
+- ⚙️ **Custom Logic**: All core logic is built **from scratch**, no external libraries used.
+- 💫 **Smooth Transitions**: Optional transitions added for a better visual experience.
+- 🟢 **Deployed and Version Controlled**: Hosted online and code pushed to GitHub.
+- 🎥 **Demo Video**: Recorded to showcase working features.
+
+---
+
+## 📁 File Structure Overview
+
+
+<pre> 
+<code>
+│   App.css
+│   App.jsx
+│   index.css
+│   main.jsx
+│   
+├───assets
+│       react.svg
+│       
+├───components
+│   ├───preview
+│   │       Preview.css
+│   │       Preview.jsx
+│   │       
+│   └───stories
+│           Stories.css
+│           Stories.jsx
+│           
+├───context
+│       AppContext.jsx
+│       
+└───data
+        stories.json
+</code> 
+</pre>
+
+
+## 🛠️ Tech Stack
+
+- **React (Vite)**
+- **CSS (Vanilla)**
+- **JavaScript (ES6+)**
+
+---
+
+## 📦 Setup
+
+```bash
+git clone https://github.com/GanpatHada/instaverse
+cd instaverse
+npm install
+npm run dev
+
+
+
