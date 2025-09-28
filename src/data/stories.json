@@ -3,60 +3,90 @@
     "id": "img001",
     "title": "Scenic Hills",
     "url": "https://picsum.photos/id/1015/400/300",
-    "source": "Picsum"
+    "source": "Picsum",
+    "userName": "Alice",
+    "fullName": "Alice Johnson",
+    "userImage": "https://randomuser.me/api/portraits/women/1.jpg"
   },
   {
     "id": "img002",
     "title": "Pine Trees",
     "url": "https://picsum.photos/id/102/400/300",
-    "source": "Picsum"
+    "source": "Picsum",
+    "userName": "Bob",
+    "fullName": "Bob Smith",
+    "userImage": "https://randomuser.me/api/portraits/men/2.jpg"
   },
   {
     "id": "img003",
     "title": "City Road",
     "url": "https://picsum.photos/id/1043/400/300",
-    "source": "Picsum"
+    "source": "Picsum",
+    "userName": "Clara",
+    "fullName": "Clara Williams",
+    "userImage": "https://randomuser.me/api/portraits/women/3.jpg"
   },
   {
     "id": "img004",
     "title": "Calm Water",
     "url": "https://picsum.photos/id/1056/400/300",
-    "source": "Picsum"
+    "source": "Picsum",
+    "userName": "David",
+    "fullName": "David Brown",
+    "userImage": "https://randomuser.me/api/portraits/men/4.jpg"
   },
   {
     "id": "img005",
     "title": "Beach Umbrella",
     "url": "https://picsum.photos/id/1062/400/300",
-    "source": "Picsum"
+    "source": "Picsum",
+    "userName": "Eva",
+    "fullName": "Eva Davis",
+    "userImage": "https://randomuser.me/api/portraits/women/5.jpg"
   },
   {
     "id": "img006",
     "title": "Stone Path",
     "url": "https://picsum.photos/id/1070/400/300",
-    "source": "Picsum"
+    "source": "Picsum",
+    "userName": "Frank",
+    "fullName": "Frank Miller",
+    "userImage": "https://randomuser.me/api/portraits/men/6.jpg"
   },
   {
     "id": "img007",
     "title": "Night Lights",
     "url": "https://picsum.photos/id/1084/400/300",
-    "source": "Picsum"
+    "source": "Picsum",
+    "userName": "Grace",
+    "fullName": "Grace Wilson",
+    "userImage": "https://randomuser.me/api/portraits/women/7.jpg"
   },
   {
     "id": "img008",
     "title": "Country Field",
     "url": "https://picsum.photos/id/1080/400/300",
-    "source": "Picsum"
+    "source": "Picsum",
+    "userName": "Henry",
+    "fullName": "Henry Moore",
+    "userImage": "https://randomuser.me/api/portraits/men/8.jpg"
   },
   {
     "id": "img009",
     "title": "Snowy Cabin",
     "url": "https://picsum.photos/id/1069/400/300",
-    "source": "Picsum"
+    "source": "Picsum",
+    "userName": "Isabella",
+    "fullName": "Isabella Taylor",
+    "userImage": "https://randomuser.me/api/portraits/women/9.jpg"
   },
   {
     "id": "img010",
     "title": "Foggy Forest",
     "url": "https://picsum.photos/id/1041/400/300",
-    "source": "Picsum"
+    "source": "Picsum",
+    "userName": "Jack",
+    "fullName": "Jack Anderson",
+    "userImage": "https://randomuser.me/api/portraits/men/10.jpg"
   }
 ]

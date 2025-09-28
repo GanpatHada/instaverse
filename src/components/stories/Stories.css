@@ -1,34 +1,79 @@
-#stories-bar{
-    display: flex;
-    gap: 10px;
-    padding: 10px;
-    background-color: whitesmoke;
-    overflow-x: auto;
-    width: auto;
+#stories-bar {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  width: auto;
+  padding: 10px;
 }
 
-.story{
-    height: 80px;
-    width: 80px;
-    overflow: hidden;
-    border-radius: 40px;
-    background:linear-gradient(45deg,purple,violet);
-    padding: 4px;
-    flex-shrink: 0;
-    cursor: pointer;
+#stories-bar::-webkit-scrollbar {
+  display: none;
 }
-.story-content{
-    height: 100%;
-    width: 100%;
-    background-color: white;
-    border-radius: 50%;
-    overflow: hidden;
-    
+
+.story-user-name {
+  font-size: 0.75rem;
+  color: #333;
+  text-align: center;
+  margin: 5px 0px;
 }
-.story-content img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    padding: 4px;
-    border-radius: 50%;
+.story {
+  cursor: pointer;
+}
+.story-content {
+  background: linear-gradient(
+    225deg,
+    rgb(179, 0, 140),
+    rgb(255, 0, 128),
+    yellow
+  );
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+  padding: 4px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.story-image-wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 4px;
+  border-radius: 50%;
+}
+.story-content img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.stories-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.scroll-btn {
+  position: absolute;
+  height: 30px;
+  aspect-ratio: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  border-radius: 50%;
+  color: rgb(54, 54, 54);
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-btn.left {
+  left: 5px;
+}
+
+.scroll-btn.right {
+  right: 5px;
 }

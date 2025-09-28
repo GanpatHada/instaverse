@@ -1,5 +1,7 @@
 #app{
-    width: 100vw;
+    width: 100%;
+    max-width: 710px;
     height: 100vh;
-    background-color: seashell;
+    background-color: whitesmoke;
+    margin: auto;
 }
