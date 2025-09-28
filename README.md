@@ -2,6 +2,8 @@
 
 A lightweight **Instagram-like story viewer** built for mobile devices, with smooth transitions and native behavior — **no external libraries used**.
 
+![Instaverse Screenshot](src/assets/demo.gif)
+
 ## 🚀 Live Demo
 
 👉 [View Live Demo](https://instaversedemo.netlify.app)
